@@ -70,3 +70,19 @@ hr {
   margin-bottom: 20px;
   border: 0;
 }
+
+.navbar{
+  /* background-color: black; */
+  height: 30px;
+
+
+}
+
+.navbar-brand {
+  fill: white;
+}
+
+.navbar-toggler{
+  justify-content: center;
+}
+
