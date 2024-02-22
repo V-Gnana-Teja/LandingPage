@@ -73,7 +73,7 @@ hr {
 
 .navbar{
   /* background-color: black; */
-  height: 30px;
+  height: 40px;
 
 
 }
@@ -86,3 +86,48 @@ hr {
   justify-content: center;
 }
 
+.navbar.second-navbar {
+  margin-top: 35px;
+  z-index:0;
+  
+}
+
+.rounded-button {
+  border-radius: 20px;
+  background-color: #343a40; 
+  color: black;
+ border-color: #343a40;
+ 
+
+}
+
+.rounded-button:hover {
+  background-color: #343a40;
+  color: white;
+  border-color: #343a40;
+}
+
+.black-text {
+  color: black;
+
+  font-weight: 500;
+}
+
+.header-content{
+  margin-top: 200px;
+}
+
+.p .h1{
+  vertical-align: top;
+}
+
+
+.btn-dark.rounded-button {
+        background-color: black;
+        color: white;
+    }
+    
+ .btn-dark.rounded-button:hover {
+        background-color: black; /* Keep background color same on hover */
+        color: white; /* Keep text color same on hover */
+    }

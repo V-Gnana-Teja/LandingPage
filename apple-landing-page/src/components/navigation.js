@@ -47,15 +47,7 @@ export const Navigation = (props) => {
                     <a class="nav-link active" aria-current="page" href="https://www.apple.com/support/">Support</a>
                 </li>
                 
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><hr class="dropdown-divider" /></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </li>
+               
                
             </ul>
               <form class="d-flex">
@@ -67,8 +59,42 @@ export const Navigation = (props) => {
 
         </div>
     </div>
+
+
+
+<nav class="navbar second-navbar fixed-top navbar-expand-sm navbar-light bg-light">
+
+    <div class="container-fluid">
+        <div class="row w-100">
+            
+        <div class="col-5 d-flex align-items-center">
+              <ul class="navbar-nav flex-row">
+                    <li class="nav-item me-2 me-lg-0 d-none d-md-inline-block">
+                        <a class="navbar-brand">Apple One</a>
+                    </li>
+              </ul>
+            </div>
+
+            <div class="col-7 d-flex justify-content-end align-items-center">
+
+                <button type="button" class="btn btn-dark rounded-button">Try it free*</button>
+            </div>
+
+        </div>
+    </div>
 </nav>
+
+
+
+
+
+
+</nav>  
 
   );
 };
 
+
+
+
+ 
