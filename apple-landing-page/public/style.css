@@ -128,6 +128,27 @@ hr {
     }
     
  .btn-dark.rounded-button:hover {
-        background-color: black; /* Keep background color same on hover */
-        color: white; /* Keep text color same on hover */
+        background-color: black; 
+        color: white; }
+    
+
+  
+ .bold-heading {
+
+          color: black;
+          font-weight: 500;
+
+     }
+
+     .card-link {
+      color: rgb(0, 102, 255) !important;
+      
     }
+
+    .custom-font-weight {
+      font-weight: bold;
+  }
+
+  .custom-card-text {
+      font-weight: 500;
+  }
