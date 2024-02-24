@@ -152,3 +152,18 @@ hr {
   .custom-card-text {
       font-weight: 500;
   }
+
+  .orange-text {
+    color: orange;
+    font-weight: bold;
+}
+
+.list-group-item {
+  font-weight: 600;
+}
+
+
+.custom-bg-color {
+  background-color: rgb(230, 230, 240);
+}
+

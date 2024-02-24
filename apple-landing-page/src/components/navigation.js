@@ -3,6 +3,7 @@ import React from "react";
 
 export const Navigation = (props) => {
   return (
+    <>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
         <a class="navbar-brand" href="#">
@@ -49,7 +50,7 @@ export const Navigation = (props) => {
                 
                
                
-            </ul>
+            </ul>            
               <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
                 <button class="btn btn-outline-success" type="submit">Search</button>
@@ -59,18 +60,17 @@ export const Navigation = (props) => {
 
         </div>
     </div>
+</nav>  
 
 
-
-<nav class="navbar second-navbar fixed-top navbar-expand-sm navbar-light bg-light">
-
+    <nav class="navbar navbar-expand-lg navbar-dark custom-bg-color ">
     <div class="container-fluid">
         <div class="row w-100">
             
         <div class="col-5 d-flex align-items-center">
               <ul class="navbar-nav flex-row">
                     <li class="nav-item me-2 me-lg-0 d-none d-md-inline-block">
-                        <a class="navbar-brand">Apple One</a>
+                        <a class="navbar-brand " style={{color: 'black'}}>Apple One</a>
                     </li>
               </ul>
             </div>
@@ -82,17 +82,13 @@ export const Navigation = (props) => {
 
         </div>
     </div>
-</nav>
-
-
-
-
-
-
 </nav>  
+</>
 
   );
 };
+
+
 
 
 
